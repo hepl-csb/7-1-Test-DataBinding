@@ -1,0 +1,14 @@
+﻿<Window x:Class="_7_1_Test_DataBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_7_1_Test_DataBinding"
+        mc:Ignorable="d"
+        Title="Test de base du databinding 1" Height="131.487" Width="525" FontSize="24" Background="LightBlue">
+<Grid>
+    <Label Content="Age" HorizontalAlignment="Left" Margin="23,30,0,0" VerticalAlignment="Top"/>
+    <TextBox x:Name="AgeTB" Text="TextBox" HorizontalAlignment="Left" Height="38" Margin="94,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
+    <Button x:Name="VieillirButton" Content="Vieillir de un an" HorizontalAlignment="Left" Margin="273,34,0,0" VerticalAlignment="Top" Width="211" Click="VieillirButton_Click"/>
+</Grid>
+</Window>
