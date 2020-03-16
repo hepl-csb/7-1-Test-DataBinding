@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7-1 Test DataBinding", "7-1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DF5E6A04-9B6D-4370-A57D-9F0887F03F2C}"
 	ProjectSection(SolutionItems) = preProject
-		Application de Test du databinding.md = Application de Test du databinding.md
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
