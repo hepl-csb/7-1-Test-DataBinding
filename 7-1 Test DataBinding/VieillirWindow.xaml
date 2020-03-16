@@ -5,14 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_7_1_Test_DataBinding"
         mc:Ignorable="d"
-        Title="Test de base du databinding 3" Height="131.487" Width="525" FontSize="24" Background="LightCoral">
-<Grid>
-    <Grid.ColumnDefinitions>
-        <ColumnDefinition Width="99*"/>
-        <ColumnDefinition Width="419*"/>
-    </Grid.ColumnDefinitions>
-    <Label Content="Age" HorizontalAlignment="Left" Margin="23,30,0,0" VerticalAlignment="Top"/>
-    <TextBox x:Name="AgeTB" Text="{Binding Path=Age}" HorizontalAlignment="Left" Height="38" Margin="94,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149" Grid.ColumnSpan="2" FontSize="{Binding Age, Mode=OneWay}"/>
-    <Button x:Name="VieillirButton" Content="Vieillir de un an" HorizontalAlignment="Left" Margin="174,34,0,0" VerticalAlignment="Top" Width="211" Click="VieillirButton_Click" Grid.Column="1"/>
-</Grid>
+        Title="Test de base du databinding 3" Height="172.554" Width="525" FontSize="24" Background="LightCoral">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="99*"/>
+            <ColumnDefinition Width="28*"/>
+            <ColumnDefinition Width="392*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Age" HorizontalAlignment="Left" Margin="23,30,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="AgeTB" Text="{Binding Age}" HorizontalAlignment="Left" Height="84" Margin="94,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149" Grid.ColumnSpan="3" FontSize="{Binding Age, Mode=OneWay}"/>
+        <Button x:Name="VieillirButton" Content="Vieillir de un an" HorizontalAlignment="Left" Margin="146.2,34,0,0" VerticalAlignment="Top" Width="211" Click="VieillirButton_Click" Grid.Column="2"/>
+    </Grid>
 </Window>
